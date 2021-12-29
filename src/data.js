@@ -1,41 +1,15 @@
-import logo from './logo.svg'
+const products = []
+let length = window.params.imgpaths.length
+for (let i = 0; i < length; i++) {
+  products.push({
+    id: i + 1,
+    image: window.params.imgpaths[i],
+    price: 10,
+    opprice: window.params.oprices[i],
+    dpprice: window.params.dprices[i],
+  })
+}
 
-const products = [
-  {
-    id: 1,
-    image: logo,
-    price: 20,
-  },
-  {
-    id: 2,
-    image: logo,
-    price: 40,
-  },
-  {
-    id: 3,
-    image: logo,
-    price: 40,
-  },
-  {
-    id: 4,
-    image: logo,
-    price: 40,
-  },
-  {
-    id: 5,
-    image: logo,
-    price: 40,
-  },
-  {
-    id: 6,
-    image: logo,
-    price: 40,
-  },
-  {
-    id: 7,
-    image: logo,
-    price: 40,
-  },
-]
+console.log(products)
 
 export default products

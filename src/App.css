@@ -188,6 +188,16 @@ p {
   font-weight: bold;
   border: 1px solid black;
   padding: 5px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.matter {
+  margin-top: 25px;
+}
+
+.switch {
+  margin-bottom: 10px;
 }
 
 .quantity {
@@ -207,4 +217,18 @@ p {
   background-color: #fff;
   color: #222;
   border: none;
+}
+
+.priceContainer {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.orginalp {
+  text-decoration: line-through;
+}
+
+.productCards {
+  display: flex;
+  justify-content: space-evenly;
 }
