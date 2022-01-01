@@ -16,7 +16,7 @@ const App = () => {
       <div className='totalContainer'>
         <h1 className='title'>Our Products</h1>
         <div className='underline'></div>
-        <div className='productCards'>
+        <div className='row productCards'>
           {Products.map((product) => {
             return (
               <Product
